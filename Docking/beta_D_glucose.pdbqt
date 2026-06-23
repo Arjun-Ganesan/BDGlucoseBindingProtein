@@ -1,0 +1,40 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_1  and  O2_8 
+REMARK    2  A    between atoms: C3_2  and  O3_9 
+REMARK    3  A    between atoms: C4_3  and  O4_10 
+REMARK    4  A    between atoms: C5_4  and  C6_5 
+REMARK    5  A    between atoms: C6_5  and  O6_12 
+REMARK    6  A    between atoms: C1_6  and  O1_7 
+ROOT
+HETATM    1  C2  BGC A 501       1.651  -5.598  -6.408  1.00 19.06     0.204 C 
+HETATM    2  C3  BGC A 501       1.277  -4.305  -7.176  1.00 15.70     0.183 C 
+HETATM    3  C4  BGC A 501       1.526  -4.647  -8.637  1.00 17.17     0.180 C 
+HETATM    4  C5  BGC A 501       0.482  -5.666  -8.983  1.00 19.10     0.179 C 
+HETATM    5  C1  BGC A 501       1.092  -6.850  -7.012  1.00 19.09     0.288 C 
+HETATM    6  O5  BGC A 501       0.875  -6.905  -8.397  1.00 21.18    -0.349 OA
+ENDROOT
+BRANCH   1   7
+HETATM    7  O2  BGC A 501       1.254  -5.390  -5.019  1.00 16.84    -0.388 OA
+HETATM    8  HO2 BGC A 501       1.468  -6.172  -4.504  1.00 16.84     0.210 HD
+ENDBRANCH   1   7
+BRANCH   2   9
+HETATM    9  O3  BGC A 501       2.094  -3.216  -6.729  1.00 14.09    -0.390 OA
+HETATM   10  HO3 BGC A 501       1.857  -2.419  -7.209  1.00 14.09     0.210 HD
+ENDBRANCH   2   9
+BRANCH   5  11
+HETATM   11  O1  BGC A 501       2.123  -7.897  -6.898  1.00 25.46    -0.369 OA
+HETATM   12  HO1 BGC A 501       1.793  -8.715  -7.278  1.00 25.46     0.212 HD
+ENDBRANCH   5  11
+BRANCH   3  13
+HETATM   13  O4  BGC A 501       1.223  -3.491  -9.398  1.00 16.57    -0.390 OA
+HETATM   14  HO4 BGC A 501       1.869  -2.806  -9.209  1.00 16.57     0.210 HD
+ENDBRANCH   3  13
+BRANCH   4  15
+HETATM   15  C6  BGC A 501       0.325  -6.018 -10.486  1.00 18.82     0.198 C 
+BRANCH  15  16
+HETATM   16  O6  BGC A 501       1.563  -6.592 -10.909  1.00 18.93    -0.398 OA
+HETATM   17  HO6 BGC A 501       1.508  -6.825 -11.838  1.00 18.93     0.209 HD
+ENDBRANCH  15  16
+ENDBRANCH   4  15
+TORSDOF 6
