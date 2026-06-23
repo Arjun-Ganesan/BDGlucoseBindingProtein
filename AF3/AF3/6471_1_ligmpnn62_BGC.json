@@ -1,0 +1,20 @@
+{
+  "name": "6471_1_ligmpnn62_BGC",
+  "modelSeeds": [895881, 244573, 828387, 900102, 710083],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "AASTILALLPGTWNMDLTDDAGLKLSGTVTFTPVSATTLSAKVKGTREDGTPVEGSGTATLVSDTTLAFSLTYPTLGGVTVTGTLTLQSDTLFTFDGTDSAGRKITGTLTKAG"
+      }
+    },
+    {
+      "ligand": {
+        "id": "B",
+        "ccdCodes": ["BGC"]
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 3
+}
